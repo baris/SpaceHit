@@ -1,0 +1,486 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		83380031198187090020B79D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 83380030198187090020B79D /* Foundation.framework */; };
+		83380033198187090020B79D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 83380032198187090020B79D /* CoreGraphics.framework */; };
+		83380035198187090020B79D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 83380034198187090020B79D /* UIKit.framework */; };
+		8338003B198187090020B79D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 83380039198187090020B79D /* InfoPlist.strings */; };
+		8338003D198187090020B79D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8338003C198187090020B79D /* main.m */; };
+		83380041198187090020B79D /* KamikazeAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 83380040198187090020B79D /* KamikazeAppDelegate.m */; };
+		83380044198187090020B79D /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 83380042198187090020B79D /* Main_iPhone.storyboard */; };
+		83380047198187090020B79D /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 83380045198187090020B79D /* Main_iPad.storyboard */; };
+		8338004A198187090020B79D /* KamikazeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 83380049198187090020B79D /* KamikazeViewController.m */; };
+		8338004C198187090020B79D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8338004B198187090020B79D /* Images.xcassets */; };
+		83380053198187090020B79D /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 83380052198187090020B79D /* XCTest.framework */; };
+		83380054198187090020B79D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 83380030198187090020B79D /* Foundation.framework */; };
+		83380055198187090020B79D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 83380034198187090020B79D /* UIKit.framework */; };
+		8338005D198187090020B79D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8338005B198187090020B79D /* InfoPlist.strings */; };
+		8338005F198187090020B79D /* Space_KamikazeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8338005E198187090020B79D /* Space_KamikazeTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		83380056198187090020B79D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 83380025198187090020B79D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8338002C198187090020B79D;
+			remoteInfo = "Space Kamikaze";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8338002D198187090020B79D /* Space Kamikaze.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Space Kamikaze.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		83380030198187090020B79D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		83380032198187090020B79D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		83380034198187090020B79D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		83380038198187090020B79D /* Space Kamikaze-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Space Kamikaze-Info.plist"; sourceTree = "<group>"; };
+		8338003A198187090020B79D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		8338003C198187090020B79D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8338003E198187090020B79D /* Space Kamikaze-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Space Kamikaze-Prefix.pch"; sourceTree = "<group>"; };
+		8338003F198187090020B79D /* KamikazeAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KamikazeAppDelegate.h; sourceTree = "<group>"; };
+		83380040198187090020B79D /* KamikazeAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KamikazeAppDelegate.m; sourceTree = "<group>"; };
+		83380043198187090020B79D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
+		83380046198187090020B79D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
+		83380048198187090020B79D /* KamikazeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KamikazeViewController.h; sourceTree = "<group>"; };
+		83380049198187090020B79D /* KamikazeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KamikazeViewController.m; sourceTree = "<group>"; };
+		8338004B198187090020B79D /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		83380051198187090020B79D /* Space KamikazeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Space KamikazeTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		83380052198187090020B79D /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		8338005A198187090020B79D /* Space KamikazeTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Space KamikazeTests-Info.plist"; sourceTree = "<group>"; };
+		8338005C198187090020B79D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		8338005E198187090020B79D /* Space_KamikazeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Space_KamikazeTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8338002A198187090020B79D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				83380033198187090020B79D /* CoreGraphics.framework in Frameworks */,
+				83380035198187090020B79D /* UIKit.framework in Frameworks */,
+				83380031198187090020B79D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8338004E198187090020B79D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				83380053198187090020B79D /* XCTest.framework in Frameworks */,
+				83380055198187090020B79D /* UIKit.framework in Frameworks */,
+				83380054198187090020B79D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		83380024198187090020B79D = {
+			isa = PBXGroup;
+			children = (
+				83380036198187090020B79D /* Space Kamikaze */,
+				83380058198187090020B79D /* Space KamikazeTests */,
+				8338002F198187090020B79D /* Frameworks */,
+				8338002E198187090020B79D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8338002E198187090020B79D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8338002D198187090020B79D /* Space Kamikaze.app */,
+				83380051198187090020B79D /* Space KamikazeTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8338002F198187090020B79D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				83380030198187090020B79D /* Foundation.framework */,
+				83380032198187090020B79D /* CoreGraphics.framework */,
+				83380034198187090020B79D /* UIKit.framework */,
+				83380052198187090020B79D /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		83380036198187090020B79D /* Space Kamikaze */ = {
+			isa = PBXGroup;
+			children = (
+				8338003F198187090020B79D /* KamikazeAppDelegate.h */,
+				83380040198187090020B79D /* KamikazeAppDelegate.m */,
+				83380042198187090020B79D /* Main_iPhone.storyboard */,
+				83380045198187090020B79D /* Main_iPad.storyboard */,
+				83380048198187090020B79D /* KamikazeViewController.h */,
+				83380049198187090020B79D /* KamikazeViewController.m */,
+				8338004B198187090020B79D /* Images.xcassets */,
+				83380037198187090020B79D /* Supporting Files */,
+			);
+			path = "Space Kamikaze";
+			sourceTree = "<group>";
+		};
+		83380037198187090020B79D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				83380038198187090020B79D /* Space Kamikaze-Info.plist */,
+				83380039198187090020B79D /* InfoPlist.strings */,
+				8338003C198187090020B79D /* main.m */,
+				8338003E198187090020B79D /* Space Kamikaze-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		83380058198187090020B79D /* Space KamikazeTests */ = {
+			isa = PBXGroup;
+			children = (
+				8338005E198187090020B79D /* Space_KamikazeTests.m */,
+				83380059198187090020B79D /* Supporting Files */,
+			);
+			path = "Space KamikazeTests";
+			sourceTree = "<group>";
+		};
+		83380059198187090020B79D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8338005A198187090020B79D /* Space KamikazeTests-Info.plist */,
+				8338005B198187090020B79D /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8338002C198187090020B79D /* Space Kamikaze */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 83380062198187090020B79D /* Build configuration list for PBXNativeTarget "Space Kamikaze" */;
+			buildPhases = (
+				83380029198187090020B79D /* Sources */,
+				8338002A198187090020B79D /* Frameworks */,
+				8338002B198187090020B79D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Space Kamikaze";
+			productName = "Space Kamikaze";
+			productReference = 8338002D198187090020B79D /* Space Kamikaze.app */;
+			productType = "com.apple.product-type.application";
+		};
+		83380050198187090020B79D /* Space KamikazeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 83380065198187090020B79D /* Build configuration list for PBXNativeTarget "Space KamikazeTests" */;
+			buildPhases = (
+				8338004D198187090020B79D /* Sources */,
+				8338004E198187090020B79D /* Frameworks */,
+				8338004F198187090020B79D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				83380057198187090020B79D /* PBXTargetDependency */,
+			);
+			name = "Space KamikazeTests";
+			productName = "Space KamikazeTests";
+			productReference = 83380051198187090020B79D /* Space KamikazeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		83380025198187090020B79D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = Kamikaze;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = TBM;
+				TargetAttributes = {
+					83380050198187090020B79D = {
+						TestTargetID = 8338002C198187090020B79D;
+					};
+				};
+			};
+			buildConfigurationList = 83380028198187090020B79D /* Build configuration list for PBXProject "Space Kamikaze" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 83380024198187090020B79D;
+			productRefGroup = 8338002E198187090020B79D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8338002C198187090020B79D /* Space Kamikaze */,
+				83380050198187090020B79D /* Space KamikazeTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8338002B198187090020B79D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				83380047198187090020B79D /* Main_iPad.storyboard in Resources */,
+				8338004C198187090020B79D /* Images.xcassets in Resources */,
+				83380044198187090020B79D /* Main_iPhone.storyboard in Resources */,
+				8338003B198187090020B79D /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8338004F198187090020B79D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8338005D198187090020B79D /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		83380029198187090020B79D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8338004A198187090020B79D /* KamikazeViewController.m in Sources */,
+				8338003D198187090020B79D /* main.m in Sources */,
+				83380041198187090020B79D /* KamikazeAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8338004D198187090020B79D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8338005F198187090020B79D /* Space_KamikazeTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		83380057198187090020B79D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8338002C198187090020B79D /* Space Kamikaze */;
+			targetProxy = 83380056198187090020B79D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		83380039198187090020B79D /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8338003A198187090020B79D /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		83380042198187090020B79D /* Main_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				83380043198187090020B79D /* Base */,
+			);
+			name = Main_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		83380045198187090020B79D /* Main_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				83380046198187090020B79D /* Base */,
+			);
+			name = Main_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		8338005B198187090020B79D /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8338005C198187090020B79D /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		83380060198187090020B79D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		83380061198187090020B79D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		83380063198187090020B79D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Space Kamikaze/Space Kamikaze-Prefix.pch";
+				INFOPLIST_FILE = "Space Kamikaze/Space Kamikaze-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		83380064198187090020B79D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Space Kamikaze/Space Kamikaze-Prefix.pch";
+				INFOPLIST_FILE = "Space Kamikaze/Space Kamikaze-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		83380066198187090020B79D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Space Kamikaze.app/Space Kamikaze";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Space Kamikaze/Space Kamikaze-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Space KamikazeTests/Space KamikazeTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		83380067198187090020B79D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Space Kamikaze.app/Space Kamikaze";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Space Kamikaze/Space Kamikaze-Prefix.pch";
+				INFOPLIST_FILE = "Space KamikazeTests/Space KamikazeTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		83380028198187090020B79D /* Build configuration list for PBXProject "Space Kamikaze" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				83380060198187090020B79D /* Debug */,
+				83380061198187090020B79D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		83380062198187090020B79D /* Build configuration list for PBXNativeTarget "Space Kamikaze" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				83380063198187090020B79D /* Debug */,
+				83380064198187090020B79D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		83380065198187090020B79D /* Build configuration list for PBXNativeTarget "Space KamikazeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				83380066198187090020B79D /* Debug */,
+				83380067198187090020B79D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 83380025198187090020B79D /* Project object */;
+}
