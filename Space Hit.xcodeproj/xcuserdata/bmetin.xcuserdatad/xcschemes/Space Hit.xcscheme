@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "8338002C198187090020B79D"
-               BuildableName = "Space Kamikaze.app"
-               BlueprintName = "Space Kamikaze"
-               ReferencedContainer = "container:Space Kamikaze.xcodeproj">
+               BuildableName = "Space Hit.app"
+               BlueprintName = "Space Hit"
+               ReferencedContainer = "container:Space Hit.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "83380050198187090020B79D"
-               BuildableName = "Space KamikazeTests.xctest"
-               BlueprintName = "Space KamikazeTests"
-               ReferencedContainer = "container:Space Kamikaze.xcodeproj">
+               BuildableName = "Space HitTests.xctest"
+               BlueprintName = "Space HitTests"
+               ReferencedContainer = "container:Space Hit.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -43,9 +43,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "8338002C198187090020B79D"
-            BuildableName = "Space Kamikaze.app"
-            BlueprintName = "Space Kamikaze"
-            ReferencedContainer = "container:Space Kamikaze.xcodeproj">
+            BuildableName = "Space Hit.app"
+            BlueprintName = "Space Hit"
+            ReferencedContainer = "container:Space Hit.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </TestAction>
@@ -62,9 +62,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "8338002C198187090020B79D"
-            BuildableName = "Space Kamikaze.app"
-            BlueprintName = "Space Kamikaze"
-            ReferencedContainer = "container:Space Kamikaze.xcodeproj">
+            BuildableName = "Space Hit.app"
+            BlueprintName = "Space Hit"
+            ReferencedContainer = "container:Space Hit.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -80,9 +80,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "8338002C198187090020B79D"
-            BuildableName = "Space Kamikaze.app"
-            BlueprintName = "Space Kamikaze"
-            ReferencedContainer = "container:Space Kamikaze.xcodeproj">
+            BuildableName = "Space Hit.app"
+            BlueprintName = "Space Hit"
+            ReferencedContainer = "container:Space Hit.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

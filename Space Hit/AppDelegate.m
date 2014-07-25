@@ -1,14 +1,14 @@
 //
-//  KamikazeAppDelegate.m
-//  Space Kamikaze
+//  AppDelegate.m
+//  Space Hit
 //
 //  Created by Baris Metin on 7/24/14.
 //  Copyright (c) 2014 TBM. All rights reserved.
 //
 
-#import "KamikazeAppDelegate.h"
+#import "AppDelegate.h"
 
-@implementation KamikazeAppDelegate
+@implementation AppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {

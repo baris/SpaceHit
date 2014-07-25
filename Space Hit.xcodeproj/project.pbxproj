@@ -7,21 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8323970C1982DB64006261FE /* ScoreBoard.m in Sources */ = {isa = PBXBuildFile; fileRef = 8323970B1982DB64006261FE /* ScoreBoard.m */; };
 		83380031198187090020B79D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 83380030198187090020B79D /* Foundation.framework */; };
 		83380033198187090020B79D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 83380032198187090020B79D /* CoreGraphics.framework */; };
 		83380035198187090020B79D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 83380034198187090020B79D /* UIKit.framework */; };
 		8338003B198187090020B79D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 83380039198187090020B79D /* InfoPlist.strings */; };
 		8338003D198187090020B79D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8338003C198187090020B79D /* main.m */; };
-		83380041198187090020B79D /* KamikazeAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 83380040198187090020B79D /* KamikazeAppDelegate.m */; };
+		83380041198187090020B79D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 83380040198187090020B79D /* AppDelegate.m */; };
 		83380044198187090020B79D /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 83380042198187090020B79D /* Main_iPhone.storyboard */; };
 		83380047198187090020B79D /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 83380045198187090020B79D /* Main_iPad.storyboard */; };
-		8338004A198187090020B79D /* KamikazeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 83380049198187090020B79D /* KamikazeViewController.m */; };
-		8338004C198187090020B79D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8338004B198187090020B79D /* Images.xcassets */; };
+		8338004A198187090020B79D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 83380049198187090020B79D /* ViewController.m */; };
 		83380053198187090020B79D /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 83380052198187090020B79D /* XCTest.framework */; };
 		83380054198187090020B79D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 83380030198187090020B79D /* Foundation.framework */; };
 		83380055198187090020B79D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 83380034198187090020B79D /* UIKit.framework */; };
-		8338005D198187090020B79D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8338005B198187090020B79D /* InfoPlist.strings */; };
-		8338005F198187090020B79D /* Space_KamikazeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8338005E198187090020B79D /* Space_KamikazeTests.m */; };
+		8338006A198188360020B79D /* SpaceView.m in Sources */ = {isa = PBXBuildFile; fileRef = 83380069198188360020B79D /* SpaceView.m */; };
+		8338006D198189110020B79D /* Game.m in Sources */ = {isa = PBXBuildFile; fileRef = 8338006C198189110020B79D /* Game.m */; };
+		833800761981A2000020B79D /* Comet.m in Sources */ = {isa = PBXBuildFile; fileRef = 833800751981A2000020B79D /* Comet.m */; };
+		833800791981A8B60020B79D /* SpaceShip.m in Sources */ = {isa = PBXBuildFile; fileRef = 833800781981A8B60020B79D /* SpaceShip.m */; };
+		8338007C1981D01C0020B79D /* Explosion.m in Sources */ = {isa = PBXBuildFile; fileRef = 8338007B1981D01C0020B79D /* Explosion.m */; };
+		8338008C1981E0B40020B79D /* Star.m in Sources */ = {isa = PBXBuildFile; fileRef = 833800871981E0B40020B79D /* Star.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -30,31 +34,41 @@
 			containerPortal = 83380025198187090020B79D /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 8338002C198187090020B79D;
-			remoteInfo = "Space Kamikaze";
+			remoteInfo = "Space Hit";
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		8338002D198187090020B79D /* Space Kamikaze.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Space Kamikaze.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8323970A1982DB64006261FE /* ScoreBoard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScoreBoard.h; sourceTree = "<group>"; };
+		8323970B1982DB64006261FE /* ScoreBoard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScoreBoard.m; sourceTree = "<group>"; };
+		8338002D198187090020B79D /* Space Hit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Space Hit.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		83380030198187090020B79D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		83380032198187090020B79D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		83380034198187090020B79D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
-		83380038198187090020B79D /* Space Kamikaze-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Space Kamikaze-Info.plist"; sourceTree = "<group>"; };
+		83380038198187090020B79D /* Space Hit-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Space Hit-Info.plist"; sourceTree = "<group>"; };
 		8338003A198187090020B79D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		8338003C198187090020B79D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		8338003E198187090020B79D /* Space Kamikaze-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Space Kamikaze-Prefix.pch"; sourceTree = "<group>"; };
-		8338003F198187090020B79D /* KamikazeAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KamikazeAppDelegate.h; sourceTree = "<group>"; };
-		83380040198187090020B79D /* KamikazeAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KamikazeAppDelegate.m; sourceTree = "<group>"; };
+		8338003E198187090020B79D /* Space Hit-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Space Hit-Prefix.pch"; sourceTree = "<group>"; };
+		8338003F198187090020B79D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		83380040198187090020B79D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		83380043198187090020B79D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
 		83380046198187090020B79D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
-		83380048198187090020B79D /* KamikazeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KamikazeViewController.h; sourceTree = "<group>"; };
-		83380049198187090020B79D /* KamikazeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KamikazeViewController.m; sourceTree = "<group>"; };
-		8338004B198187090020B79D /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		83380051198187090020B79D /* Space KamikazeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Space KamikazeTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		83380048198187090020B79D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		83380049198187090020B79D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		83380051198187090020B79D /* Space HitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Space HitTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		83380052198187090020B79D /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
-		8338005A198187090020B79D /* Space KamikazeTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Space KamikazeTests-Info.plist"; sourceTree = "<group>"; };
-		8338005C198187090020B79D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		8338005E198187090020B79D /* Space_KamikazeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Space_KamikazeTests.m; sourceTree = "<group>"; };
+		83380068198188360020B79D /* SpaceView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SpaceView.h; sourceTree = "<group>"; };
+		83380069198188360020B79D /* SpaceView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SpaceView.m; sourceTree = "<group>"; };
+		8338006B198189110020B79D /* Game.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Game.h; sourceTree = "<group>"; };
+		8338006C198189110020B79D /* Game.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Game.m; sourceTree = "<group>"; };
+		833800741981A2000020B79D /* Comet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Comet.h; sourceTree = "<group>"; };
+		833800751981A2000020B79D /* Comet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Comet.m; sourceTree = "<group>"; };
+		833800771981A8B60020B79D /* SpaceShip.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SpaceShip.h; sourceTree = "<group>"; };
+		833800781981A8B60020B79D /* SpaceShip.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SpaceShip.m; sourceTree = "<group>"; };
+		8338007A1981D01C0020B79D /* Explosion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Explosion.h; sourceTree = "<group>"; };
+		8338007B1981D01C0020B79D /* Explosion.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Explosion.m; sourceTree = "<group>"; };
+		833800861981E0B40020B79D /* Star.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Star.h; sourceTree = "<group>"; };
+		833800871981E0B40020B79D /* Star.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Star.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,8 +98,9 @@
 		83380024198187090020B79D = {
 			isa = PBXGroup;
 			children = (
-				83380036198187090020B79D /* Space Kamikaze */,
-				83380058198187090020B79D /* Space KamikazeTests */,
+				8338007D1981E0B40020B79D /* Base.lproj */,
+				833800821981E0B40020B79D /* en.lproj */,
+				83380036198187090020B79D /* Space Hit */,
 				8338002F198187090020B79D /* Frameworks */,
 				8338002E198187090020B79D /* Products */,
 			);
@@ -94,8 +109,8 @@
 		8338002E198187090020B79D /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				8338002D198187090020B79D /* Space Kamikaze.app */,
-				83380051198187090020B79D /* Space KamikazeTests.xctest */,
+				8338002D198187090020B79D /* Space Hit.app */,
+				83380051198187090020B79D /* Space HitTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -111,56 +126,67 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		83380036198187090020B79D /* Space Kamikaze */ = {
+		83380036198187090020B79D /* Space Hit */ = {
 			isa = PBXGroup;
 			children = (
-				8338003F198187090020B79D /* KamikazeAppDelegate.h */,
-				83380040198187090020B79D /* KamikazeAppDelegate.m */,
-				83380042198187090020B79D /* Main_iPhone.storyboard */,
-				83380045198187090020B79D /* Main_iPad.storyboard */,
-				83380048198187090020B79D /* KamikazeViewController.h */,
-				83380049198187090020B79D /* KamikazeViewController.m */,
-				8338004B198187090020B79D /* Images.xcassets */,
+				8338003F198187090020B79D /* AppDelegate.h */,
+				83380040198187090020B79D /* AppDelegate.m */,
+				83380048198187090020B79D /* ViewController.h */,
+				83380049198187090020B79D /* ViewController.m */,
+				8338006B198189110020B79D /* Game.h */,
+				8338006C198189110020B79D /* Game.m */,
+				8323970A1982DB64006261FE /* ScoreBoard.h */,
+				8323970B1982DB64006261FE /* ScoreBoard.m */,
+				83380068198188360020B79D /* SpaceView.h */,
+				83380069198188360020B79D /* SpaceView.m */,
+				833800771981A8B60020B79D /* SpaceShip.h */,
+				833800781981A8B60020B79D /* SpaceShip.m */,
+				833800741981A2000020B79D /* Comet.h */,
+				833800751981A2000020B79D /* Comet.m */,
+				833800861981E0B40020B79D /* Star.h */,
+				833800871981E0B40020B79D /* Star.m */,
+				8338007A1981D01C0020B79D /* Explosion.h */,
+				8338007B1981D01C0020B79D /* Explosion.m */,
 				83380037198187090020B79D /* Supporting Files */,
 			);
-			path = "Space Kamikaze";
+			path = "Space Hit";
 			sourceTree = "<group>";
 		};
 		83380037198187090020B79D /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				83380038198187090020B79D /* Space Kamikaze-Info.plist */,
-				83380039198187090020B79D /* InfoPlist.strings */,
+				83380038198187090020B79D /* Space Hit-Info.plist */,
 				8338003C198187090020B79D /* main.m */,
-				8338003E198187090020B79D /* Space Kamikaze-Prefix.pch */,
+				8338003E198187090020B79D /* Space Hit-Prefix.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		83380058198187090020B79D /* Space KamikazeTests */ = {
+		8338007D1981E0B40020B79D /* Base.lproj */ = {
 			isa = PBXGroup;
 			children = (
-				8338005E198187090020B79D /* Space_KamikazeTests.m */,
-				83380059198187090020B79D /* Supporting Files */,
+				83380045198187090020B79D /* Main_iPad.storyboard */,
+				83380042198187090020B79D /* Main_iPhone.storyboard */,
 			);
-			path = "Space KamikazeTests";
+			name = Base.lproj;
+			path = "Space Hit";
 			sourceTree = "<group>";
 		};
-		83380059198187090020B79D /* Supporting Files */ = {
+		833800821981E0B40020B79D /* en.lproj */ = {
 			isa = PBXGroup;
 			children = (
-				8338005A198187090020B79D /* Space KamikazeTests-Info.plist */,
-				8338005B198187090020B79D /* InfoPlist.strings */,
+				83380039198187090020B79D /* InfoPlist.strings */,
 			);
-			name = "Supporting Files";
+			name = en.lproj;
+			path = "Space Hit/en.lproj";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		8338002C198187090020B79D /* Space Kamikaze */ = {
+		8338002C198187090020B79D /* Space Hit */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 83380062198187090020B79D /* Build configuration list for PBXNativeTarget "Space Kamikaze" */;
+			buildConfigurationList = 83380062198187090020B79D /* Build configuration list for PBXNativeTarget "Space Hit" */;
 			buildPhases = (
 				83380029198187090020B79D /* Sources */,
 				8338002A198187090020B79D /* Frameworks */,
@@ -170,14 +196,14 @@
 			);
 			dependencies = (
 			);
-			name = "Space Kamikaze";
-			productName = "Space Kamikaze";
-			productReference = 8338002D198187090020B79D /* Space Kamikaze.app */;
+			name = "Space Hit";
+			productName = "Space Hit";
+			productReference = 8338002D198187090020B79D /* Space Hit.app */;
 			productType = "com.apple.product-type.application";
 		};
-		83380050198187090020B79D /* Space KamikazeTests */ = {
+		83380050198187090020B79D /* Space HitTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 83380065198187090020B79D /* Build configuration list for PBXNativeTarget "Space KamikazeTests" */;
+			buildConfigurationList = 83380065198187090020B79D /* Build configuration list for PBXNativeTarget "Space HitTests" */;
 			buildPhases = (
 				8338004D198187090020B79D /* Sources */,
 				8338004E198187090020B79D /* Frameworks */,
@@ -188,9 +214,9 @@
 			dependencies = (
 				83380057198187090020B79D /* PBXTargetDependency */,
 			);
-			name = "Space KamikazeTests";
-			productName = "Space KamikazeTests";
-			productReference = 83380051198187090020B79D /* Space KamikazeTests.xctest */;
+			name = "Space HitTests";
+			productName = "Space HitTests";
+			productReference = 83380051198187090020B79D /* Space HitTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -199,7 +225,7 @@
 		83380025198187090020B79D /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				CLASSPREFIX = Kamikaze;
+				CLASSPREFIX = Hit;
 				LastUpgradeCheck = 0510;
 				ORGANIZATIONNAME = TBM;
 				TargetAttributes = {
@@ -208,7 +234,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 83380028198187090020B79D /* Build configuration list for PBXProject "Space Kamikaze" */;
+			buildConfigurationList = 83380028198187090020B79D /* Build configuration list for PBXProject "Space Hit" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -221,8 +247,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				8338002C198187090020B79D /* Space Kamikaze */,
-				83380050198187090020B79D /* Space KamikazeTests */,
+				8338002C198187090020B79D /* Space Hit */,
+				83380050198187090020B79D /* Space HitTests */,
 			);
 		};
 /* End PBXProject section */
@@ -233,7 +259,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				83380047198187090020B79D /* Main_iPad.storyboard in Resources */,
-				8338004C198187090020B79D /* Images.xcassets in Resources */,
 				83380044198187090020B79D /* Main_iPhone.storyboard in Resources */,
 				8338003B198187090020B79D /* InfoPlist.strings in Resources */,
 			);
@@ -243,7 +268,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8338005D198187090020B79D /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -254,9 +278,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8338004A198187090020B79D /* KamikazeViewController.m in Sources */,
+				8338006D198189110020B79D /* Game.m in Sources */,
+				8338008C1981E0B40020B79D /* Star.m in Sources */,
+				8338004A198187090020B79D /* ViewController.m in Sources */,
+				8338006A198188360020B79D /* SpaceView.m in Sources */,
+				8338007C1981D01C0020B79D /* Explosion.m in Sources */,
 				8338003D198187090020B79D /* main.m in Sources */,
-				83380041198187090020B79D /* KamikazeAppDelegate.m in Sources */,
+				833800761981A2000020B79D /* Comet.m in Sources */,
+				833800791981A8B60020B79D /* SpaceShip.m in Sources */,
+				83380041198187090020B79D /* AppDelegate.m in Sources */,
+				8323970C1982DB64006261FE /* ScoreBoard.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -264,7 +295,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8338005F198187090020B79D /* Space_KamikazeTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -273,7 +303,7 @@
 /* Begin PBXTargetDependency section */
 		83380057198187090020B79D /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 8338002C198187090020B79D /* Space Kamikaze */;
+			target = 8338002C198187090020B79D /* Space Hit */;
 			targetProxy = 83380056198187090020B79D /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -285,6 +315,7 @@
 				8338003A198187090020B79D /* en */,
 			);
 			name = InfoPlist.strings;
+			path = ..;
 			sourceTree = "<group>";
 		};
 		83380042198187090020B79D /* Main_iPhone.storyboard */ = {
@@ -301,14 +332,6 @@
 				83380046198187090020B79D /* Base */,
 			);
 			name = Main_iPad.storyboard;
-			sourceTree = "<group>";
-		};
-		8338005B198187090020B79D /* InfoPlist.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				8338005C198187090020B79D /* en */,
-			);
-			name = InfoPlist.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -392,9 +415,9 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Space Kamikaze/Space Kamikaze-Prefix.pch";
-				INFOPLIST_FILE = "Space Kamikaze/Space Kamikaze-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				GCC_PREFIX_HEADER = "Space Hit/Space Hit-Prefix.pch";
+				INFOPLIST_FILE = "Space Hit/Space Hit-Info.plist";
+				PRODUCT_NAME = "Space Hit";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -405,9 +428,9 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Space Kamikaze/Space Kamikaze-Prefix.pch";
-				INFOPLIST_FILE = "Space Kamikaze/Space Kamikaze-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				GCC_PREFIX_HEADER = "Space Hit/Space Hit-Prefix.pch";
+				INFOPLIST_FILE = "Space Hit/Space Hit-Info.plist";
+				PRODUCT_NAME = "Space Hit";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -415,20 +438,20 @@
 		83380066198187090020B79D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Space Kamikaze.app/Space Kamikaze";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Space Hit.app/Space Hit";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
 					"$(DEVELOPER_FRAMEWORKS_DIR)",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Space Kamikaze/Space Kamikaze-Prefix.pch";
+				GCC_PREFIX_HEADER = "Space Hit/Space Hit-Prefix.pch";
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = "Space KamikazeTests/Space KamikazeTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				INFOPLIST_FILE = "Space HitTests/Space HitTests-Info.plist";
+				PRODUCT_NAME = "Space HitTests";
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
 			};
@@ -437,16 +460,16 @@
 		83380067198187090020B79D /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Space Kamikaze.app/Space Kamikaze";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Space Hit.app/Space Hit";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
 					"$(DEVELOPER_FRAMEWORKS_DIR)",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Space Kamikaze/Space Kamikaze-Prefix.pch";
-				INFOPLIST_FILE = "Space KamikazeTests/Space KamikazeTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				GCC_PREFIX_HEADER = "Space Hit/Space Hit-Prefix.pch";
+				INFOPLIST_FILE = "Space HitTests/Space HitTests-Info.plist";
+				PRODUCT_NAME = "Space HitTests";
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
 			};
@@ -455,7 +478,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		83380028198187090020B79D /* Build configuration list for PBXProject "Space Kamikaze" */ = {
+		83380028198187090020B79D /* Build configuration list for PBXProject "Space Hit" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				83380060198187090020B79D /* Debug */,
@@ -464,21 +487,23 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		83380062198187090020B79D /* Build configuration list for PBXNativeTarget "Space Kamikaze" */ = {
+		83380062198187090020B79D /* Build configuration list for PBXNativeTarget "Space Hit" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				83380063198187090020B79D /* Debug */,
 				83380064198187090020B79D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
-		83380065198187090020B79D /* Build configuration list for PBXNativeTarget "Space KamikazeTests" */ = {
+		83380065198187090020B79D /* Build configuration list for PBXNativeTarget "Space HitTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				83380066198187090020B79D /* Debug */,
 				83380067198187090020B79D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
